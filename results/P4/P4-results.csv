@@ -1,0 +1,7 @@
+Task,Kubectl Expert,Kubectl Novice,Kui,OpenShift
+apply_delete_pod,,,,
+apply_pod,,,,
+apply_delete_deploy,,,,
+apply_deploy,,,,
+apply_big_deploy,,,,
+apply_big_deploy_all,,,,
