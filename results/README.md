@@ -1,6 +1,6 @@
 # results
 
-Results of user study sessions include the task recordings, task times, and magic keys.
+Results of user study sessions are organized by participant number and include the task recordings, task times, and magic keys.
 
 Overview of instructions:
 - Upload study task recordings in the corresponding participant folder. 
