@@ -1,6 +1,6 @@
 # scenarios
 
-Scenarios include the user study task files organized by participant number.
+Scenarios include the user study task files and are organized by participant number.
 
 Overview of instructions:
 
