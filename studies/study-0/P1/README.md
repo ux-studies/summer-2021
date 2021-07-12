@@ -1,6 +1,6 @@
 # P1 task instructions
 
-Please remember to start and stop your recording for each task.
+Please remember to start and stop your screen and audio recording for each task.
 
 1. apply_delete_pod: Create a pod using the scenarios/P1/pod/pod.yaml file. Once the pod is running, delete the pod and wait until the task terminates.
 2. apply_pod: Create a pod using the scenarios/P1/pod/pod.yaml file. Once the pod is running, view the logs for the pod and write down the magic key found in the logs. Then delete the pod and wait until the task terminates.
