@@ -1,5 +1,5 @@
 # task-2 instructions
 
-1. Create a pod using the task-2/pod/pod.yaml file. 
-2. Once the pod is running, view the logs for the pod and write down the magic key found in the logs. 
-3. Delete the pod and wait until the task terminates.
+1. Create the nginx pod. 
+2. Once the nginx pod is running, view the logs for nginx and write down the magic key found in the logs. 
+3. Delete the nginx pod and wait until the task terminates.
