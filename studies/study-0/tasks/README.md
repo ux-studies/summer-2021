@@ -1,4 +1,4 @@
-# tasks instructions
+# task instructions overview
 
 1. After cloning this repository on your machine and starting your Kubernetes cluster, change directories to the tasks folder.
 2. Start your screen recording and enable audio recording to capture your activity while completing the tasks.
