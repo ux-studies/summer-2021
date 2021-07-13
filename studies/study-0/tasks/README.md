@@ -1,6 +1,6 @@
 # tasks
 
-The tasks contain 6 study tasks with step-by-step instructions and hints, if needed.
+The tasks directory contains 6 study tasks with step-by-step instructions and hints, if needed.
 
 Overview of instructions:
 1. After cloning this repository on your machine and starting your Kubernetes cluster, change directories to the tasks folder.
