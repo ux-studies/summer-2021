@@ -1,6 +1,6 @@
-# study-0
+# study-0 instructions
 
-The study-0 contains study tasks and the results folders.
-
-Overview of instrutions:
-- Click on the tasks folder to read task instructions.
+Prerequisites:
+1. Clone the repository on your machine.
+2. The study requires running a Kubernetes cluster to complete the tasks. Start a Kubernetes cluster on your machine.
+3. Click the tasks folder to read the task instructions overview before beginning. 
