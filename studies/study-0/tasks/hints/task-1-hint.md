@@ -1,4 +1,4 @@
-# Create an application
+# Create a pod
 kubectl apply -f /your/path/to/pod.yaml
-# Delete an application
+# Delete a pod
 kubectl delete -f /your/path/to/pod.yaml
