@@ -1,5 +1,7 @@
 # task-5 instructions
 
+The goal of task-5 is to create a namespace, create an application in the namespace, view the logs for the _ pod, then delete the application:
+
 1. Create a namespace to house the guestbook application.
 2. Create the guestbook application in that namespace.
 3. Wait until all the deployments are running.
