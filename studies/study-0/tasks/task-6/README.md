@@ -1,5 +1,7 @@
 # task-6 instructions
 
+This task repeats the steps completed in task-5 and builds on them. The goal of task-6 is to create a namespace, create an application in the namespace, search all the logs for each deployment, then delete the application:
+
 1. Create a namespace to house the guestbook application.
 2. Create the guestbook application in that namespace.
 3. Wait until all the deployments are running.
