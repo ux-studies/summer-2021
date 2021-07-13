@@ -1,6 +1,6 @@
 # task-3 instructions
 
-The goal of task-3 is to create an application, then delete it.
+The goal of task-3 is to create an application, then delete it:
 
 1. Create the bunch application. 
 2. Once the _ deployment is running, delete the bunch application and wait until the task terminates.
