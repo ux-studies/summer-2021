@@ -1,3 +1,5 @@
+# Create a namespace
+kubectl create namespace [namespace-name]
 # Create an application
 kubectl apply -f /your/path/to/guestbook
 # Get the pods
