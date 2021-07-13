@@ -1,6 +1,3 @@
-# studies
+# studies instructions
 
-The individual studies are organized by study number.
-
-Overview of instructions:
-- Open the "studies/study-#" folder with the corresponding study number.
+1. Click the "studies/study-#" folder for the specified study number.
