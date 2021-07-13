@@ -3,4 +3,4 @@
 The study-0 contains study tasks and the results folders.
 
 Overview of instrutions:
-1. Click on the tasks folder.
+- Click on the tasks folder to access task instructions.
