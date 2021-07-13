@@ -1,4 +1,4 @@
-# task-2
+# task-2 instructions
 
 1. Create a pod using the task-2/pod/pod.yaml file. 
 2. Once the pod is running, view the logs for the pod and write down the magic key found in the logs. 
