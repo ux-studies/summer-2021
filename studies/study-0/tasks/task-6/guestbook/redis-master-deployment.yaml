@@ -1,0 +1,70 @@
+#
+# Copyright 2021 The Kubernetes Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# 
+
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: redis-master
+  labels:
+    app: redis
+    tier: backend
+spec:
+  selector:
+    matchLabels:
+      app: redis
+      role: master
+      tier: backend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: redis
+        role: master
+        tier: backend
+    spec:
+      containers:
+      - name: master
+        command:
+          - /bin/sh
+          - "-c" 
+          - "echo \"Deserunt elit nostrud elit magna culpa ea irure deserunt do excepteur aliqua dolor. \nProident voluptate fugiat eiusmod pariatur mollit pariatur. \nId magna tempor est anim ipsum est.
+    \nNulla officia magna exercitation elit laborum veniam exercitation reprehenderit incididunt deserunt. \nLaboris tempor id nulla id commodo reprehenderit ipsum ullamco cupidatat et anim anim. \nMinim labore cillum qui eu nostrud consectetur amet ipsum deserunt eiusmod eiusmod consectetur. \nIn mollit officia id labore commodo adipisicing aliqua elit dolore tempor nostrud magna. \nExercitation ut laboris culpa dolore sit esse commodo eu exercitation commodo qui.
+    \nAmet nisi pariatur exercitation eiusmod ad esse aliquip nulla deserunt voluptate ea. \nDolor elit Lorem qui minim ex non magna esse id. \nAdipisicing laboris eiusmod voluptate qui consectetur nisi velit adipisicing adipisicing voluptate reprehenderit non. \nCommodo ad voluptate minim ea ea veniam deserunt enim laboris. \nAute sint duis in esse qui consequat mollit id cillum cillum. \nEiusmod ex Lorem duis dolore sit in ad ad ex eu consectetur consectetur.
+    \nLaboris Lorem deserunt tempor cupidatat elit sit duis nostrud eu nisi qui enim laboris. \nLaboris commodo nulla reprehenderit incididunt proident veniam do. \nSint cupidatat esse elit ut officia qui commodo consectetur enim non dolor eu.
+    \nExcepteur sunt dolor sit enim duis sit aute. \nVeniam magna dolor ipsum dolor ea incididunt labore tempor velit enim tempor quis pariatur. \nLaboris commodo enim Lorem exercitation ut laborum duis ea qui. \nQuis sint aliquip incididunt nisi non sit. \nAmet elit ex pariatur et excepteur enim occaecat duis est laborum nostrud magna eu quis. \nExercitation laboris qui nisi et deserunt occaecat dolore nisi fugiat. \nAd laborum fugiat sunt tempor quis duis eiusmod proident.
+    \nIpsum excepteur non duis in laboris duis anim velit. \nSit proident adipisicing do et ipsum. \nCupidatat laborum labore ut et dolore incididunt ullamco minim. \nSunt commodo esse est excepteur eiusmod dolore.
+    \nDeserunt nisi cillum consequat reprehenderit exercitation est reprehenderit in do labore. \nConsectetur officia ipsum sint culpa tempor consectetur ad. \nDolor id commodo velit nisi anim nostrud id ipsum consectetur pariatur. \nIncididunt laborum aliqua veniam laborum culpa et pariatur consectetur. \nAd anim magna magna incididunt irure enim laboris laboris adipisicing cillum voluptate.
+    \nOfficia elit laboris non quis tempor est. \nTempor incididunt sint mollit mollit consequat eu ex fugiat cupidatat. \nCulpa magna commodo veniam laboris tempor labore amet cillum magna eiusmod aliqua.
+    \nVelit ipsum enim amet sit. \nLorem adipisicing amet incididunt consectetur ullamco nulla enim non id. \nIrure elit culpa tempor adipisicing exercitation non sunt aliqua do est. \nThe magic key is 5251126.
+    \nOccaecat aliqua cillum elit adipisicing aliqua pariatur eu officia labore cillum voluptate Lorem ipsum. \nVoluptate ut exercitation sit voluptate tempor officia id cupidatat dolor sit dolor consectetur incididunt sint. \nEsse deserunt veniam deserunt incididunt ullamco et incididunt sint.
+    \nEt quis consequat cillum aute eu nostrud. \nLaborum nostrud reprehenderit fugiat aute deserunt nostrud in. \nMagna duis dolore minim ipsum mollit sint eiusmod nulla consequat enim aute sint laborum irure. \nIrure excepteur culpa occaecat enim do est duis velit incididunt cupidatat consectetur dolore.
+    \nLaboris voluptate pariatur laboris voluptate qui incididunt adipisicing commodo nostrud ea. \nEiusmod est aliqua elit tempor consectetur. \nCupidatat consectetur exercitation veniam excepteur fugiat nisi aliqua magna id minim excepteur sit. \nExercitation esse ullamco officia laborum. \nQuis nostrud in aliqua non dolore eu dolor commodo veniam dolor deserunt enim sunt. \nCillum excepteur duis sunt amet. \nIpsum enim quis pariatur aute amet ipsum fugiat.
+    \nNisi adipisicing occaecat sit nostrud ea sit proident voluptate est cupidatat deserunt. \nMagna pariatur excepteur quis sint irure. \nAute dolor laborum consectetur sint est culpa minim. \nSit deserunt cillum quis cupidatat nisi labore mollit. \nMagna minim esse magna irure sint et id esse mollit ut excepteur. \nAmet veniam qui voluptate eu culpa labore id commodo in nostrud aute esse tempor.
+    \nAliquip nostrud magna dolore amet pariatur eiusmod est. \nLabore fugiat pariatur sint ut anim enim amet nostrud reprehenderit consectetur. \nDuis tempor consequat occaecat voluptate anim duis laborum magna do mollit laborum fugiat aliquip. \nNisi magna enim voluptate sit sunt minim consectetur culpa consequat amet pariatur qui incididunt ad. \nUt nisi quis pariatur aliqua irure sit. \nIpsum non excepteur esse enim culpa esse officia labore sit.
+    \nNon ipsum sint excepteur nostrud eu est laborum aute dolore sint deserunt laborum sint. \nVelit commodo non quis cupidatat ad proident. \nQui id reprehenderit adipisicing veniam occaecat anim mollit commodo aliquip id velit.
+    \nLaborum exercitation mollit consectetur sint eiusmod laborum amet. \nNostrud ea in consequat anim officia dolore velit cupidatat nulla velit ullamco. \nConsectetur labore tempor minim enim exercitation consequat. \nNon et eu est anim est magna. \nEsse adipisicing non ut est fugiat consectetur nisi quis cupidatat do esse nisi. \nId commodo pariatur ad excepteur voluptate tempor duis nostrud aliquip adipisicing commodo nostrud.
+    \nQui commodo mollit reprehenderit enim ipsum. \nEt laboris Lorem amet sunt eu. \nUllamco aute non nisi nulla velit dolor eu ad. Non ad in mollit id cupidatat. \nMagna cillum eu exercitation non aliquip magna excepteur in quis excepteur. \nFugiat sint est in ex sunt qui dolor non voluptate officia ea pariatur consectetur officia. \nQui consequat nisi fugiat pariatur ea.
+    \nMollit eiusmod magna cillum voluptate. \nQuis labore consectetur proident Lorem occaecat adipisicing do aute reprehenderit minim esse. \nTempor ullamco est id dolor laboris in consectetur exercitation aliqua magna. \nCillum laboris non dolore nostrud sit.
+    \nAute velit voluptate consectetur fugiat laborum nulla exercitation nisi velit eu ex exercitation. \nUt velit exercitation proident exercitation aute anim culpa irure proident id anim amet quis. \nCulpa amet incididunt irure ex quis proident est elit proident. \nEnim magna fugiat consectetur eiusmod eiusmod ipsum minim qui deserunt anim ad aliquip velit sunt. \nAliqua incididunt aute Lorem est ipsum adipisicing irure sit. \nDuis ex et cupidatat excepteur labore amet nisi fugiat laborum irure deserunt do culpa cupidatat. \nSunt do aliqua pariatur exercitation minim amet commodo esse est et do occaecat sunt fugiat.
+    \nQui esse dolor ad nostrud veniam aliquip. \nVeniam sit non pariatur irure ut in veniam aliquip velit dolor sit. \nVoluptate minim aliquip officia voluptate laborum dolore commodo nostrud labore.\"; sleep 3467583937263830482743212"
+        image: k8s.gcr.io/redis:e2e  # or just image: redis
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 6379
+
