@@ -1,6 +1,6 @@
 # task-5 instructions
 
-The goal of task-5 is to create a namespace, create the guestbook application in the namespace, view the logs for the _ pod, then delete the guestbook application:
+The goal of task-5 is to create a namespace, create the guestbook application in the namespace, view the logs for the _ pod, then delete the guestbook application and the namespace:
 
 1. Create a namespace to house the guestbook application.
 2. Create the guestbook application in that namespace.
