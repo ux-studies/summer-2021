@@ -7,6 +7,6 @@ This task repeats the steps completed in task-5 and builds on them. The goal of 
 3. Wait until all the deployments are running.
 4. There are six pods in total. Search all the logs to find the names of the pods that have the random string "magic key: #######" in their logs. 
 5. Delete the guestbook application and wait until the task terminates.
-6. Delete the namespace.
+6. Delete the namespace and wait until the task temrinates.
 
 [Hint](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-hint.md)
