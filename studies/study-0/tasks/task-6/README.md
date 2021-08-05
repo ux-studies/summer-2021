@@ -9,4 +9,4 @@ The goal of task-6 is to create a namespace, create the guestbook application in
 5. Delete the guestbook application and wait until the task terminates.
 6. Delete the namespace and wait until the task temrinates.
 
-[Hints for kubectl CLI](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-hint.md)
+[kubectl CLI hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-hint.md)
