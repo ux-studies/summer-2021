@@ -10,4 +10,4 @@ The goal of task-6 is to create a namespace, create the guestbook application in
 6. Delete the namespace and wait until the task temrinates.
 
 [kubectl CLI hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-hint.md)
-[OpenShift console hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-openshift-hint.md)
+/n[OpenShift console hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-openshift-hint.md)
