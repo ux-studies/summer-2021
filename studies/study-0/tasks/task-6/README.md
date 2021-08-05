@@ -11,6 +11,6 @@ The goal of task-6 is to create a namespace, create the guestbook application in
 
 # task-6 hints
 
-[kubectl CLI hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-hint.md)
+[kubectl CLI hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-kubectl-hint.md)
 
 [OpenShift console hints](https://github.com/ux-studies/summer-2021/blob/main/studies/study-0/tasks/hints/task-6-openshift-hint.md)
